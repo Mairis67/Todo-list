@@ -1,0 +1,79 @@
+body {
+  font-family: Roboto;
+  background-image: linear-gradient(to right, #c3e8bd, #5b7553);
+}
+
+h1 {
+  background-color: #4e4b5c;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: #fef9ef;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+li:nth-child(2n) {
+  background-color: #e8dbc5;
+}
+
+li span {
+  background-color: #e74c3c;
+  height: 40px;
+  width: 0;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1;
+}
+
+input {
+  font-size: 18px;
+  background-color: #e8dbc5;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: #4e4b5c;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus {
+  background-color: #fef9ef;
+  border: 3px solid #e8dbc5;
+  outline: none;
+}
+
+#container {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  margin: 100px auto;
+  background-color: #e8dbc5;
+}
+
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.fa-edit {
+  float: right;
+}
